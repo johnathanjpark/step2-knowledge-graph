@@ -1,2 +1,1 @@
-date,question_id,source,system,diagnosis,chosen_answer,correct,error_type,missed_clue
-2026-03-18,UW_0001,UWorld,Cardiology,Aortic dissection,Myocardial infarction,0,Premature closure,Tearing chest pain radiating to back
+date_completed,source,source_qid,correct,confidence,timed,discipline,organ_system,entry_point,final_diagnosis,discriminating_clue,confirmatory_test,next_best_step,first_intervention,definitive_management,common_trap,error_type,error_note,educational_value,takeaway
