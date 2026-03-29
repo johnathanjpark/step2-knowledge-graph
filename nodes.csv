@@ -1,0 +1,340 @@
+UMLS CUI,node name,node type,synonyms
+C0852036,Pregnancy associated hypertension,EntryPoint,gestational hypertension
+C0079924,oligohydramnios,Disease,
+C0740948,decreased amniotic fluid index,Finding,
+C0203425,fetal biophysical profile,Test,BPP
+C0032051,placental insufficiency,Disease,uteroplacental insufficiency
+C1314734,nonstress test,Test,
+C5687966,antenatal fetal health surveillance,Treatment,fetal surveillance
+C0011209,obstetric delivery,Treatment,delivery
+C1319204,antepartum fetal status,Finding,
+C0017504,gestational age,Finding,
+C0262671,amnioinfusion,Treatment,
+C0457245,variable fetal heart decelerations,Finding,variable decelerations
+,oligohydramnios management,AlgorithmStep,
+C0205360,Stable status,Finding,
+C0443343,Unstable status,Finding,
+,diagnostic,ErrorType,
+,management,ErrorType,
+,stability/urgency,ErrorType,
+,execution,ErrorType,
+,metacognitive,ErrorType,
+C0013404,dyspnea,EntryPoint,"shortness of breath, SOB"
+C0221045,high output heart failure,Disease,
+C0085619,orthopnea,Finding,
+C0003855,arteriovenous fistula,RiskFactor,AV fistula
+C0242073,pulmonary congestion,Finding,
+C2363749,hyperdynamic left ventricle,Finding,
+C4038650,Doppler ultrasonography of arteriovenous fistula,Test,
+C0558347,surgical revision,Treatment,
+C0856365,arteriovenous fistula revision,Treatment,
+C0240841,widened pulse pressure,Finding,
+C5849517,pulmonary vascular congestion,Finding,
+C0018801,heart failure,Disease,
+C0239340,edema of lower extremity,Finding,pedal edema
+C5979967,hyperkalemia,Finding,
+C0038220,status epilepticus,Disease,
+C0234533,generalized seizures,EntryPoint,
+C0749696,tricyclic antidepressant poisoning,Disease,"TCA toxicity, TCA overdose"
+C4537742,ECG: tall R wave in aVR,Finding,
+C1623258,Electrocardiography,Test,"ECG, EKG"
+C0074722,sodium bicarbonate,Treatment,
+C4048284,benzodiazepine,Treatment,
+C0031507,phenytoin,Treatment,
+C1269683,Major Depressive Disorder,Disease,
+C0872271,Sodium Channel Blockade,Complication,
+C0235475,wide QRS complex,Finding,
+C2676167,"seizures, refractory",Finding,refractory seizure
+C0020649,Hypotension,Finding,
+C0412555,Ultrasound scan - obstetric,Test,"obstetric ultrasound, prenatal ultrasound"
+C0426037,Fetal Heart Finding,Finding,fetal heart tracing
+C0015944,"Fetal Membranes, Premature Rupture",Finding,"Premature rupture of membranes, PROM"
+C5447469,healthcare utilization,Finding,
+C1800706,idiopathic pulmonary fibrosis,Disease,IPF
+C0332468,honeycomb appearance,Finding,honeycombing
+C0412612,high resolution ct of lungs,Test,high resolution ct of chest
+C0298067,pirfenidone,Treatment,
+C0523807,oxygen saturation measurement,Test,
+C4031950,antifibrotic agents,Treatment,
+C1697788,decreased carbon monoxide diffusing capacity,Finding,decreased DLCO
+C1849571,pulmonary function tests show restrictive deficit,Finding,restrictive pft
+C0240859,basilar rales,Finding,"bibasilar crackles, basilar crackles, bibasilar rales"
+C1290344,nonspecific interstitial pneumonia,Disease,NSIP
+C0024117,chronic obstructive airway disease,Disease,"COPD, chronic obstructive pulmonary disease"
+C0853673,oxygen saturation within reference range,Finding,normal oxygen saturation
+C0184633,oxygen therapy care,Treatment,oxygen therapy
+C0031048,"pericarditis, constrictive",Disease,constrictive pericarditis
+C0232118,pulsus paradoxus,Finding,
+C0013516,echocardiography,Test,echo
+C0018795,cardiac catheterization procedures,Treatment,cath
+C4082936,hemodynamic monitoring,AlgorithmStep,
+C0031042,pericardiectomy,Treatment,
+C0425687,jugular venous engorgement,Finding,"jugular venous distention, JVD"
+,recent cardiac surgery,RiskFactor,
+C0085649,peripheral edema,Finding,
+C0034642,rales,Finding,crackles
+C0007177,cardiac tamponade,Disease,
+C0227791,vaginal discharge,EntryPoint,
+C0242172,pelvic inflammatory disease,Disease,PID
+C2143930,purulent cervical discharge,Finding,
+C0332140,clinical diagnosis,Finding,
+C0430056,urine pregnancy test,Test,
+C1299622,empirical antibiotic therapy,Treatment,empiric antibiotics
+C0338237,antibiotic therapy,Treatment,
+C0241028,sexually active,RiskFactor,
+C0238594,adnexal tenderness,Finding,
+C0015967,fever,Finding,
+C0232495,lower abdominal pain,Finding,
+C0032987,ectopic pregnancy,Disease,
+C0014175,endometriosis,Disease,
+C0036130,salpingitis,Disease,
+C0239134,productive cough,EntryPoint,
+C0028242,nocardia infections,Disease,
+C0445902,partially acid-fast bacillus,Finding,weakly acid fast branching rods
+C1318720,acid fast stain,Test,
+C0041044,Trimethoprim-Sulfamethoxazole Combination,Treatment,trimethoprim sulfamethoxazole
+C5234945,Immune Status,AlgorithmStep,
+C0085393,Immunocompromised host,RiskFactor,
+C0281991,use of steroids,RiskFactor,
+C0024110,lung abscess,Finding,
+C0028081,night sweats,Finding,
+C1262477,weight loss,Finding,
+C0041296,tuberculosis,Disease,
+C0001261,Actinomycosis,Disease,actinomyces infection
+C0429910,Mantoux: negative,Finding,negative PPD
+C0007280,Carotid bruit,EntryPoint,
+C3695086,symptomatic carotid artery stenosis,Disease,
+C5192534,history of cerebrovascular accident due to ischemia,RiskFactor,history of ischemic stroke
+C0948945,"ultrasonography, carotid arteries",Test,carotid ultrasound
+C0014099,carotid entarterectomy,Treatment,
+C1096021,antiplatelet therapy,Treatment,
+C0020538,hypertensive disease,RiskFactor,hypertension
+C0007282,carotid stenosis,Disease,
+C0242339,dyslipidemias,RiskFactor,
+,75% stenosis,Finding,
+C0398087,insertion of carotid artery stent,Treatment,carotid artery stenting
+C3494609,asymptomatic carotid artery stenosis,Disease,
+C0001792,Elderly (population group),RiskFactor,"aged, advanced age, >65 years"
+C0158026,monoarthritis,EntryPoint,
+C1619733,gout flare,Disease,
+,negative birefringent needle shaped crystals,Finding,
+C0200648,synovial fluid analysis,Test,
+C4054701,intraarticular corticosteroid therapy,Treatment,
+C0149783,steroid therapy,Treatment,corticosteroid therapy
+C5396824,urate lowering therapy,Treatment,
+C0740394,hyperuricemia,RiskFactor,
+C1561643,chronic kidney diseases,Disease,
+C0458235,first metatarsophalangeal joint paint,Finding,
+C0920100,synovial fluid leukocytosis,Finding,
+C0003211,"Anti-Inflammatory Agents, Non-Steroidal",Treatment,NSAID
+C0018802,congestive heart failure,Disease,
+C0002144,allopurinol,Treatment,
+C0278061,abnormal mental state,EntryPoint,altered mental status
+C0041948,uremia,Disease,
+C0232766,asterixis,Finding,
+C0201976,"Creatinine measurement, serum (procedure)",Test,serum creatinine
+C0019004,hemodialysis,Treatment,
+C0011854,"Diabetes Mellitus, Insulin-Dependent",Disease,
+C0700225,serum creatinine raised,Finding,
+C0220981,metabolic acidosis,Finding,
+C0035078,renal failure,Disease,kidney failure
+C0011880,diabetic ketoacidosis,Disease,
+C0020456,hyperglycemia,Finding,
+C5442411,insulin therapy,Treatment,
+C0032617,polyuria,EntryPoint,
+,post-obstructive diuresis,Disease,postobstructive diuresis
+C0042019,urinary catheterization,Test,
+,urine output monitoring,AlgorithmStep,
+,reduce intravenous fluid rate,AlgorithmStep,
+,volume status management,Treatment,
+,benztropine use,RiskFactor,
+C0080274,urinary retention,Disease,
+C0030567,Parkinson disease,Disease,
+C0020625,hyponatremia,Finding,
+C0011848,diabetes insipidus,Disease,
+C0020488,hypernatremia,Finding,
+C0203408,echography of kidney,Test,"renal ultrasound, ultrasound of kidney"
+C0028778,obstruction,Finding,
+C5392968,Likelihood ratio test,EntryPoint,
+C0554478,perianal dermatitis,EntryPoint,perianal rash
+C0002645,amoxicillin,Treatment,
+C0038411,Streptococcus pyogenes,Disease,
+C0041834,erythema,Finding,
+C0237326,dyschezia,Finding,"painful defecation, pain with defecation"
+C0430402,bacterial culture (procedure),Test,
+C0033860,psoriasis,Disease,
+C0086445,idiopathic membranous glomerulonephritis,Disease,primary membranous nephropathy
+C3554338,normal serum complement levels,Finding,
+,anti phospholipase A2 receptor antibody testing,Test,
+C0003015,Angiotensin-Converting Enzyme Inhibitors,Treatment,ACE inhibitor
+C0021079,therapeutic immunosuppression,Treatment,immunosuppressive therapy
+C0033687,proteinuria,Finding,
+C0027726,nephrotic syndrome,Disease,
+C0403414,Acute post-streptococcal glomerulonephritis,Disease,"PSGN, poststreptococcal glomerulonephritis"
+C0024143,lupus nephritis,Disease,
+C0231749,knee pain,EntryPoint,
+C0409312,anterior cruciate ligament tear,Disease,ACL tear
+C2732928,injury while engaged in sports activity,Finding,
+C3669150,lachman test (procedure),Test,
+C0556923,"Rest, ice, compression and elevation treatment program",Treatment,RICE
+C0188185,Reconstruction of anterior cruciate ligament of knee joint,Treatment,"ACL repair, ACL reconstruction"
+C0018924,hemarthrosis,Finding,
+C0343170,hemarthrosis of knee,Finding,
+C0563555,unable to weight-bear,Finding,inability to bear weight
+C0343166,knee joint effusion,Finding,knee effusion
+C0409316,rupture of posterior cruciate ligament,Disease,PCL tear
+C3669380,Posterior drawer test (procedure),Test,
+C0850149,dry cough,EntryPoint,
+C1535939,Pneumocystis jiroveci pneumonia,Disease,PCP pneumonia
+C0523210,Methenamine silver nitrate stain method,Test,
+C1535502,bronchoalveolar lavage,Test,
+C0165603,atovaquone,Treatment,
+C0019693,HIV infections,Disease,
+C1855068,Low CD4+ count,Finding,
+C0038757,allergy to sulfonamide,Finding,sulfa allergy
+C2939465,Deficiency of glucose-6-phosphate dehydrogenase,Finding,G6PD deficiency
+C0010980,dapsone,Treatment,
+C0004626,"pneumonia, bacterial",Disease,bacterial pneumonia
+C3839346,heart failure with reduced ejection fraction,Disease,HFrEF
+C5678315,Elevated brain natriuretic peptide (BNP),Finding,elevated BNP
+C0700431,cardiac rehabilitation,Treatment,
+C0354100,loop diuretics,Treatment,
+,guideline directed medical therapy,Treatment,
+C0032285,pneumonia,Disease,
+C0004057,aspirin,Treatment,
+C0027051,myocardial infarction,Disease,MI
+C5243983,high sensitivity troponin elevation,Finding,
+C2242996,has tingling sensation,EntryPoint,paresthesia
+C0151723,hypomagnesemia,Disease,
+C0745155,hypokalemia persistent,Finding,refractory hypokalemia
+C0202125,serum magnesium measurement,Test,
+C1096534,magnesium supplement therapy,Treatment,magnesium supplementation
+C0001948,alcohol consumption,Finding,
+C0011991,diarrhea,Finding,
+C0239058,chvostek sign positive,Finding,
+C0241479,Trousseau sign positive,Finding,
+C0020598,hypocalcemia,Disease,
+C0015468,facial pain,Finding,
+C0238013,invasive aspergillosis,Disease,
+,septated branching hyphae,Finding,
+C0176358,biopsy of nose,Test,nasal biopsy
+C4081147,amphotericin B injection,Treatment,intravenous amphotericin B
+C0455097,Surgical debridement of wound,Treatment,
+C1262006,bacterial sinusitis,Disease,
+C2230223,nasal mucosa necrotis,Finding,necrotic nasal tissue
+C0026718,mucormycosis,Disease,
+C5779629,Eruption of skin (disorder),EntryPoint,rash
+C0343052,guttate psoriasis,Disease,
+C2169605,recent streptococcal infection,RiskFactor,
+C4050091,topical corticosteroid therapy,Treatment,
+C0031765,phototherapy,Treatment,
+C0032026,pityriasis rosea,Disease,
+C0234922,rash scaly,Finding,
+C0085656,nummular eczema,Disease,
+C0018674,craniocerebral trauma,EntryPoint,head trauma
+C2959978,open depressed fracture of skull,Disease,open depressed skull fracture
+C2180368,step-off displacement deformity of skull,Finding,
+C0202691,CAT scan of head,Test,head CT
+C0559680,intravenous antibiotic therapy,Treatment,intravenous antibiotics
+C0524850,neurosurgical procedures,Treatment,"neurosurgical intervention, neurosurgery"
+C0240937,scalp laceration,Finding,
+,low glasgow coma scale,Finding,low GCS
+C0876926,traumatic brain injury,Disease,TBI
+C0262423,closed fracture of skull,Disease,closed skull fracture
+C0238154,"Hematoma, Epidural, Cranial",Disease,epidural hematoma
+C0149931,migraine disorders,EntryPoint,
+C1827629,refractory migraine,Disease,
+C0392525,nephrolithiasis,Finding,
+C4542165,erenumab,Treatment,
+C5873031,Calcitonin Gene-Related Peptide (CGRP) Receptor Antagonists,Treatment,
+C0076829,topiramate,Treatment,
+C1541923,infective endocarditis,Disease,
+C0333286,splinter hemorrhage,Finding,
+C0200949,blood culture,Test,
+C0026269,mitral valve stenosis,Finding,
+C0344232,blurred vision,EntryPoint,blurry vision
+C0085435,reactive arthritis,Disease,
+C0403762,Circinate balanitis co-occurrent with reactive arthritis triad,Finding,
+,chlamydia trachomatis nucleic acid amplification test,Test,
+C0013090,doxycycline,Treatment,
+C0008149,chlamydia infections,RiskFactor,
+C4285788,HLA-B*27 positive,Finding,HLA-B27 positive
+C0009763,conjunctivitis,Finding,
+C3892044,oligoarticular arthritis,Finding,oligoarthritis
+C0201406,VDRL test,Test,
+C0039128,syphilis,Disease,
+C0017668,focal glomerulosclerosis,Disease,"FSGS, focal segmental glomerulosclerosis"
+C0020312,hydrothorax,Finding,transudative pleural effusion
+C0194073,kidney biopsy,Test,
+C0887947,"Antiretroviral Therapy, Highly Active",Treatment,HAART
+C0581377,decompensated cardiac failure,Disease,acute decompensated heart failure
+C0078911,AIDS-Associated Nephropathy,Disease,AIDS nephropathy
+C4053796,NSAID-Induced Nephropathy,Disease,NSAID nephropathy
+C0445118,nephrotic range proteinuria,Finding,
+,discontinue NSAID,Treatment,
+C0003873,rheumatoid arthritis,Disease,RA
+C0151205,periorbital edema,Finding,
+C0568062,methotrexate poisoning,Disease,methotrexate toxicity
+C0002726,amyloidosis,Disease,
+C0012833,dizziness,EntryPoint,
+C0036980,"shock, cardiogenic",Disease,
+C0028961,oliguria,Finding,
+C5147552,Inotropic support (drug),Treatment,
+C3845183,Left Ventricular Assistive Device (LVAD),Treatment,LVAD
+C0277925,cold extremity,Finding,
+C0085642,livedo reticularis,Finding,
+C0020683,hypovolemic shock,Disease,
+C0522792,Administration of intravenous fluids,Treatment,
+C0233794,memory impairment,EntryPoint,memory loss
+C0002395,Alzheimer's disease,Disease,"AD, Alzheimer's dementia"
+C0001046,Acetylcholinesterase Inhibitors,Treatment,
+C0344211,supportive care,Treatment,
+C0039231,tachycardia,Finding,
+C4024936,Atrophy of cortex of temporal lobe,Finding,
+C4715786,difficulty remembering names,Finding,naming difficulty
+C0743724,retro-orbital pain,EntryPoint,retroorbital pain
+C1399352,paroxysmal hemicrania,Disease,
+C0439593,short duration,Finding,
+C0021246,indomethacin,Treatment,
+C0009088,cluster headache,Disease,
+C0423153,lacrimation,Finding,
+C0033377,ptosis,Finding,
+C1260880,rhinorrhea,Finding,
+C0205212,high frequency,Finding,
+C4761117,High-flow nasal cannula oxygen therapy,Treatment,
+C0042523,verapamil,Treatment,
+C5200981,alcohol detoxification,EntryPoint,
+C0236663,alcohol withdrawal syndrome,Disease,
+C0023890,liver cirrhosis,Finding,
+C0024002,lorazepam,Treatment,
+C3155173,phase II metabolism,Treatment,
+C0008188,chlordiazepoxide,Treatment,
+C0001956,alcohol use disorder,RiskFactor,
+C0040822,tremor,Finding,
+C0700590,increased sweating,Finding,diaphoresis
+C0003962,ascites,Finding,
+C0033774,pruritis,Finding,
+C0699828,serotonin syndrome,Disease,
+C0019196,Hepatitis C,Disease,
+C0017662,"Glomerulonephritis, Membranoproliferative",Disease,"MPGN, membranoproliferative glomerulonephritis"
+C0582103,medical examination,EntryPoint,check up
+C0201411,complement assay,Test,
+C2064686,treat underlying etiology,Treatment,
+C0280274,antiviral therapy,Treatment,
+C0018965,hematuria,Finding,
+C0013604,edema,Finding,
+C0497247,increase in blood pressure,Finding,
+C0085413,"Polycystic Kidney, Autosomal Dominant",Disease,
+C2173715,ultrasound of kidney: multiple cysts of both kidneys,Finding,
+C0022671,kidney transplantation,Treatment,renal transplant
+C0022658,kidney diseases,Disease,renal disease
+C0016199,flank pain,Finding,
+C0237963,Poisoning caused by acetaminophen,Disease,
+C0085605,liver failure,EntryPoint,
+C0438717,transaminases increased,Finding,
+C1254636,serum acetaminophen test,Test,
+C0001047,acetylcysteine,Treatment,n-acetylcysteine
+C0023911,transplantation of liver,Treatment,liver transplant
+C0853225,INR increased,Finding,"INR elevation, elevated INR"
+C0020615,hypoglycemia,Finding,
+C0019209,hepatomegaly,Finding,

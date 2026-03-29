@@ -1,0 +1,472 @@
+source_node,source_type,relationship_type,target_node,target_type,weight,note,source_qid
+21135.1,Question,tests,oligohydramnios,Disease,3,,21135.1
+placental insufficiency,RiskFactor,risk_factor_for,oligohydramnios,Disease,2,,21135.1
+fetal heart finding,Finding,suggests,stable status,Finding,3,,21135.1
+Pregnancy associated hypertension,EntryPoint,activates_differential_for,oligohydramnios,Disease,2,,21135.1
+oligohydramnios,Disease,confirmed_by,Ultrasound scan - obstetric,Test,3,,21135.1
+oligohydramnios,Disease,confirmed_by,decreased amniotic fluid index,Finding,3,,21135.1
+oligohydramnios,Disease,next_step_is,nonstress test,Test,3,,21135.1
+oligohydramnios,Disease,treated_with,obstetric delivery,Treatment,3,,21135.1
+oligohydramnios,Disease,requires_first,fetal biophysical profile,Test,3,,21135.1
+oligohydramnios,Disease,discriminates_from,"Fetal Membranes, Premature Rupture",Finding,2,,21135.1
+decreased amniotic fluid index,Finding,suggests,oligohydramnios,Disease,3,,21135.1
+fetal biophysical profile,Test,confirms,antepartum fetal status,Finding,2,,21135.1
+antenatal fetal health surveillance,Treatment,includes,nonstress test,Test,2,,21135.1
+antenatal fetal health surveillance,Treatment,includes,fetal biophysical profile,Test,2,,21135.1
+variable heart rate decelerations,Finding,treated_with,amnioinfusion,Treatment,3,,21135.1
+21135.1,Question,diagnostic_confusion,expectant management if stable,AlgorithmStep,3,,21135.1
+21135.1,Question,did_not_know_next_best_step,oligohydramnios,Disease,3,,21135.1
+21135.1,Question,missed_key_clue,antepartum fetal status,Finding,3,,21135.1
+dyspnea,EntryPoint,activates_differential_for,high output heart failure,Disease,3,,44374.1
+arteriovenous fistula,RiskFactor,risk_factor_for,high output heart failure,Disease,3,,44374.1
+hyperdynamic left ventricle,Finding,suggests,high output heart failure,Disease,3,,44374.1
+widened pulse pressure,Finding,suggests,high output heart failure,Disease,2,,44374.1
+pulmonary vascular congestion,Finding,suggests,heart failure,Disease,3,,44374.1
+orthopnea,Finding,suggests,heart failure,Disease,3,,44374.1
+pedal edema,Finding,suggests,heart failure,Disease,2,,44374.1
+high output heart failure,Disease,confirmed_by,Doppler ultrasonography of arteriovenous fistula,Test,3,,44374.1
+high output heart failure,Disease,next_step_is,Doppler ultrasonography of arteriovenous fistula,Test,3,,44374.1
+high output heart failure,Disease,treated_with,arteriovenous fistula revision,Treatment,2,,44374.1
+44374.1,Question,anchored_too_early,hyperkalemia,Finding,3,,44374.1
+44374.1,Question,missed_key_clue,hyperdynamic left ventricle,Finding,3,,44374.1
+44374.1,Question,missed_key_clue,arteriovenous fistula,RiskFactor,3,,44374.1
+44374.1,Question,did_not_recognize_pattern,high output heart failure,Disease,3,,44374.1
+22913.4,Question,tests,tricyclic antidepressant poisoning,Disease,3,,22913.4
+22913.4,Question,uses_entry_point,generalized seizures,EntryPoint,3,,22913.4
+generalized seizures,EntryPoint,activates_differential_for,tricyclic antidepressant poisoning,Disease,3,,22913.4
+generalized seizures,EntryPoint,activates_differential_for,status epilepticus,Disease,3,,22913.4
+major depressive disorder,RiskFactor,risk_factor_for,tricyclic antidepressant poisoning,Disease,2,,22913.4
+sodium channel blockade,Complication,can_cause,tricyclic antidepressant poisoning,Disease,3,,22913.4
+ECG: tall R wave in aVR,Finding,suggests,tricyclic antidepressant poisoning,Disease,3,,22913.4
+Wide QRS complex,Finding,suggests,tricyclic antidepressant poisoning,Disease,3,,22913.4
+"seizures, refractory",Finding,suggests,tricyclic antidepressant poisoning,Disease,2,,22913.4
+hypotension,Finding,suggests,tricyclic antidepressant poisoning,Disease,2,,22913.4
+tricyclic antidepressant poisoning,Disease,next_step_is,sodium bicarbonate,AlgorithmStep,3,,22913.4
+tricyclic antidepressant poisoning,Disease,treated_with,sodium bicarbonate,Treatment,3,,22913.4
+status epilepticus,Disease,requires_first,benzodiazepine,Treatment,3,,22913.4
+wide QRS complex,Finding,discriminates_from,generalized seizures,Disease,3,,22913.4
+phenytoin,Treatment,contraindicated_if,tricyclic antidepressant poisoning,Disease,3,,22913.4
+22913.4,Question,management_gap,phenytoin,Treatment,3,,22913.4
+22913.4,Question,missed_key_clue,Wide QRS complex,Finding,3,,22913.4
+22913.4,Question,did_not_recognize_pattern,tricyclic antidepressant poisoning,Disease,3,,22913.4
+22913.4,Question,anchored_too_early,status epilepticus,Disease,2,,22913.4
+43968.1,Question,tests,idiopathic pulmonary fibrosis,Disease,3,,43968.1
+43968.1,Question,uses_entry_point,dyspnea,EntryPoint,3,,43968.1
+dyspnea,EntryPoint,activates_differential_for,idiopathic pulmonary fibrosis,Disease,3,,43968.1
+Elderly (population group),RiskFactor,risk_factor_for,idiopathic pulmonary fibrosis,Disease,2,,43968.1
+honeycomb appearance,Finding,suggests,idiopathic pulmonary fibrosis,Disease,3,,43968.1
+decreased carbon monoxide diffusing capacity,Finding,suggests,idiopathic pulmonary fibrosis,Disease,3,,43968.1
+pulmonary function tests show restrictive deficit,Finding,suggests,idiopathic pulmonary fibrosis,Disease,3,,43968.1
+basilar rales,Finding,suggests,idiopathic pulmonary fibrosis,,2,,43968.1
+idiopathic pulmonary fibrosis,Disease,next_step_is,pirfenidone,Treatment,3,,43968.1
+idiopathic pulmonary fibrosis,Disease,treated_with,antifibrotic agents,Treatment,3,,43968.1
+idiopathic pulmonary fibrosis,Disease,requires_first,oxygen saturation measurement,AlgorithmStep,2,,43968.1
+honeycomb appearance,Finding,discriminates_from,nonspecific interstitial pneumonia,Disease,3,,43968.1
+idiopathic pulmonary fibrosis,Disease,discriminates_from,chronic obstructive airway disease,Disease,3,,43968.1
+oxygen saturation within normal range,Finding,excludes,oxygen therapy care,Treatment,2,,43968.1
+43968.1,Question,management_gap,oxygen therapy care,Treatment,3,,43968.1
+43968.1,Question,missed_key_clue,honeycomb appearance,Finding,3,,43968.1
+43968.1,Question,did_not_recognize_pattern,idiopathic pulmonary fibrosis,Disease,3,,43968.1
+23586.7,Question,tests,"pericarditis, constrictive",Disease,3,,23586.7
+23586.7,Question,uses_entry_point,dyspnea,EntryPoint,3,,23586.7
+dyspnea,EntryPoint,activates_differential_for,"pericarditis, constrictive",Disease,3,,23586.7
+recent cardiac surgery,RiskFactor,risk_factor_for,"pericarditis, constrictive",Disease,3,,23586.7
+jugular venous engorgement,Finding,suggests,"pericarditis, constrictive",Disease,3,,23586.7
+peripheral edema,Finding,suggests,"pericarditis, constrictive",Disease,2,,23586.7
+dyspnea,Finding,suggests,"pericarditis, constrictive",Disease,2,,23586.7
+rales,Finding,mimics,heart failure,Disease,2,,23586.7
+"pericarditis, constrictive",Disease,next_step_is,cardiac catheterization procedure,AlgorithmStep,3,,23586.7
+"pericarditis, constrictive",Disease,treated_with,pericardiectomy,Treatment,3,,23586.7
+"pericarditis, constrictive",Disease,requires_first,hemodynamic monitoring,AlgorithmStep,2,,23586.7
+"pericarditis, constrictive",Disease,discriminates_from,cardiac tamponade,Disease,3,,23586.7
+pulsus paradoxus,Finding,mimics,cardiac tamponade,Disease,2,,23586.7
+23586.7,Question,low_confidence_correct,"pericarditis, constrictive",Disease,3,,23586.7
+23586.7,Question,diagnostic_confusion,heart failure,Disease,3,,23586.7
+23586.7,Question,missed_key_clue,pulsus paradoxus,Finding,3,,23586.7
+23586.7,Question,diagnostic_confusion,cardiac tamponade,Disease,3,,23586.7
+21105.1,Question,tests,pelvic inflammatory disease,Disease,3,,21105.1
+21105.1,Question,uses_entry_point,vaginal discharge,EntryPoint,3,,21105.1
+vaginal discharge,EntryPoint,activates_differential_for,pelvic inflammatory disease,Disease,3,,21105.1
+sexually active,RiskFactor,risk_factor_for,pelvic inflammatory disease,Disease,3,,21105.1
+purulent cervical discharge,Finding,suggests,pelvic inflammatory disease,Disease,3,,21105.1
+adnexal tenderness,Finding,suggests,pelvic inflammatory disease,Disease,3,,21105.1
+fever,Finding,suggests,pelvic inflammatory disease,Disease,3,,21105.1
+lower abdominal pain,Finding,suggests,pelvic inflammatory disease,Disease,3,,21105.1
+pelvic inflammatory disease,Disease,requires_first,urine pregnancy test,AlgorithmStep,3,,21105.1
+pelvic inflammatory disease,Disease,next_step_is,empirical antibiotic therapy,AlgorithmStep,3,,21105.1
+pelvic inflammatory disease,Disease,treated_with,antibiotic therapy,Treatment,3,,21105.1
+pelvic inflammatory disease,Disease,discriminates_from,ectopic pregnancy,Disease,3,,21105.1
+purulent cervical discharge,Finding,excludes,endometriosis,Disease,3,,21105.1
+adnexal tenderness,Finding,mimics,salpingitis,Disease,2,,21105.1
+21105.1,Question,low_confidence_correct,pelvic inflammatory disease,Disease,3,,21105.1
+21105.1,Question,diagnostic_confusion,salpingitis,Disease,3,,21105.1
+21105.1,Question,correct_wrong_reason,urine pregnancy test,AlgorithmStep,2,,21105.1
+43289.1,Question,tests,nocardia infections,Disease,3,,43289.1
+43289.1,Question,uses_entry_point,productive cough,EntryPoint,3,,43289.1
+productive cough,EntryPoint,activates_differential_for,nocardia infections,Disease,3,,43289.1
+immunocompromised host,RiskFactor,risk_factor_for,nocardia infections,Disease,3,,43289.1
+use of steroids,RiskFactor,risk_factor_for,nocardia infections,Disease,3,,43289.1
+partially acid-fast bacillus,Finding,suggests,nocardia infections,Disease,3,,43289.1
+lung abscess,Finding,suggests,nocardia infections,Disease,2,,43289.1
+night sweats,Finding,mimics,tuberculosis,Disease,2,,43289.1
+weight loss,Finding,mimics,tuberculosis,Disease,2,,43289.1
+nocardia infection,Disease,next_step_is,Trimethoprim-Sulfamethoxazole Combination,AlgorithmStep,3,,43289.1
+nocardia infection,Disease,treated_with,antibiotic therapy,Treatment,3,,43289.1
+nocardia infection,Disease,requires_first,Immune Status,AlgorithmStep,2,,43289.1
+partially acid-fast bacillus,Finding,discriminates_from,actinomycosis,Disease,3,,43289.1
+nocardia infection,Disease,discriminates_from,tuberculosis,Disease,2,,43289.1
+Mantoux: negative,Finding,excludes,tuberculosis,Disease,2,,43289.1
+43289.1,Question,diagnostic_confusion,actinomycosis,Disease,3,,43289.1
+43289.1,Question,missed_key_clue,partially acid-fast bacillus,Finding,3,,43289.1
+43289.1,Question,did_not_recognize_pattern,Immune Status,Disease,3,,43289.1
+22235.5,Question,tests,symptomatic carotid artery stenosis,Disease,3,,22235.5
+22235.5,Question,uses_entry_point,carotid bruit,EntryPoint,3,,22235.5
+carotid bruit,EntryPoint,activates_differential_for,symptomatic carotid artery stenosis,Disease,3,,22235.5
+history of cerebrovascular accident due to ischemia,RiskFactor,risk_factor_for,symptomatic carotid artery stenosis,Disease,3,,22235.5
+hypertension,RiskFactor,risk_factor_for,carotid stenosis,Disease,2,,22235.5
+dyslipidemias,RiskFactor,risk_factor_for,carotid stenosis,Disease,2,,22235.5
+carotid bruit,Finding,suggests,carotid stenosis,Disease,2,,22235.5
+75% stenosis,Finding,suggests,symptomatic carotid artery stenosis,Disease,3,,22235.5
+history of cerebrovascular accident due to ischemia,Finding,suggests,symptomatic carotid artery stenosis,Disease,3,,22235.5
+symptomatic carotid artery stenosis,Disease,next_step_is,carotid endarterectomy,Treatment,3,,22235.5
+symptomatic carotid artery stenosis,Disease,treated_with,carotid endarterectomy,Treatment,3,,22235.5
+symptomatic carotid artery stenosis,Disease,requires_first,antiplatelet therapy,AlgorithmStep,2,,22235.5
+carotid endarterectomy,Treatment,discriminates_from,insertion of carotid artery stent,Treatment,3,,22235.5
+asymptomatic carotid artery stenosis,Disease,discriminates_from,symptomatic carotid artery stenosis,Disease,3,,22235.5
+insertion of carotid artery stent,Treatment,contraindicated_if,elderlyElderly (population group),Finding,2,,22235.5
+22235.5,Question,did_not_know_next_best_step,carotid endarterectomy,Treatment,3,,22235.5
+22235.5,Question,diagnostic_confusion,insertion of carotid artery stent,Treatment,3,,22235.5
+22235.5,Question,missed_key_clue,history of cerebrovascular accident due to ischemia,RiskFactor,3,,22235.5
+21613.1,Question,tests,gout flare,Disease,3,,21613.1
+21613.1,Question,uses_entry_point,monoarthritis,EntryPoint,3,,21613.1
+monoarthritis,EntryPoint,activates_differential_for,gout flare,Disease,3,,21613.1
+hyperuricemia,RiskFactor,risk_factor_for,gout flare,Disease,2,,21613.1
+chronic kidney diseases,RiskFactor,risk_factor_for,gout flare,Disease,2,,21613.1
+first metatarsophalangeal joint paint,Finding,suggests,gout flare,Disease,3,,21613.1
+negative birefringent needle shaped crystals,Finding,suggests,gout flare,Disease,3,,21613.1
+synovial fluid leukocytosis,Finding,suggests,gout flare,Disease,2,,21613.1
+gout flare,Disease,next_step_is,intraarticular corticosteroid therapy,AlgorithmStep,3,,21613.1
+gout flare,Disease,treated_with,steroid therapy,Treatment,3,,21613.1
+gout flare,Disease,treated_with,"Anti-Inflammatory Agents, Non-Steroidal",Treatment,2,,21613.1
+"Anti-Inflammatory Agents, Non-Steroidal",Treatment,contraindicated_if,chronic kidney diseases,Disease,3,,21613.1
+"Anti-Inflammatory Agents, Non-Steroidal",Treatment,contraindicated_if,congestive heart failure,Disease,3,,21613.1
+allopurinol,Treatment,contraindicated_if,gout flare,Disease,2,,21613.1
+21613.1,Question,management_gap,intraarticular corticosteroid therapy,AlgorithmStep,3,,21613.1
+21613.1,Question,diagnostic_confusion,"anti-inflammatory Agents, Non-Steroidal",Treatment,2,,21613.1
+21613.1,Question,missed_key_clue,chronic kidney diseases,Disease,3,,21613.1
+21848.7,Question,tests,uremia,Disease,3,,21848.7
+21848.7,Question,uses_entry_point,abnormal mental state,EntryPoint,3,,21848.7
+abnormal mental state,EntryPoint,activates_differential_for,uremia,Disease,3,,21848.7
+"Diabetes Mellitus, Insulin-Dependent",Disease,risk_factor_for,chronic kidney diseases,Disease,3,,21848.7
+chronic kidney diseases,Disease,can_cause,uremia,Disease,3,,21848.7
+asterixis,Finding,suggests,uremia,Disease,3,,21848.7
+serum creatinine raised,Finding,suggests,uremia,Disease,3,,21848.7
+metabolic acidosis,Finding,suggests,uremia,Disease,2,,21848.7
+hyperkalemia,Finding,suggests,uremia,Disease,2,,21848.7
+uremia,Disease,next_step_is,hemodialysis,AlgorithmStep,3,,21848.7
+uremia,Disease,treated_with,hemodialysis,Treatment,3,,21848.7
+renal failure,Disease,requires_first,hemodialysis,AlgorithmStep,3,,21848.7
+diabetic ketoacidosis,Disease,mimics,uremia,Disease,3,,21848.7
+hyperglycemia,Finding,discriminates_from,diabetic ketoacidosis,Disease,2,,21848.7
+hemodialysis,Treatment,discriminates_from,insulin therapy,Treatment,3,,21848.7
+21848.7,Question,diagnostic_confusion,diabetic ketoacidosis,Disease,3,,21848.7
+21848.7,Question,missed_key_clue,asterixis,Finding,3,,21848.7
+21848.7,Question,did_not_know_next_best_step,hemodialysis,AlgorithmStep,3,,21848.7
+43814.1,Question,tests,post-obstructive diuresis,Disease,3,,43814.1
+benztropine use,RiskFactor,risk_factor_for,urinary retention,Disease,2,,43814.1
+Parkinson disease,RiskFactor,risk_factor_for,urinary retention,Disease,2,,43814.1
+polyuria,Finding,suggests,post-obstructive diuresis,Disease,3,,43814.1
+"Creatinine measurement, serum (procedure)",Finding,suggests,post-obstructive diuresis,Disease,3,,43814.1
+hyponatremia,Finding,suggests,post-obstructive diuresis,Disease,2,,43814.1
+post-obstructive diuresis,Disease,next_step_is,reduce intravenous fluid rate,AlgorithmStep,3,,43814.1
+post-obstructive diuresis,Disease,treated_with,volume status management,Treatment,3,,43814.1
+post-obstructive diuresis,Disease,requires_first,urine output monitoring,AlgorithmStep,3,,43814.1
+post-obstructive diuresis,Disease,discriminates_from,diabetes insipidus,Disease,2,,43814.1
+hyponatremia,Finding,discriminates_from,hypernatremia,Finding,2,,43814.1
+echography of kidney,Test,tests,obstruction,Finding,2,,43814.1
+43814.1,Question,low_confidence_correct,reduce intravenous fluid rate,AlgorithmStep,3,,43814.1
+43814.1,Question,management_gap,echography of kidney,Test,2,,43814.1
+43638.3,Question,tests,perianal dermatitis,Disease,3,,43638.3
+43638.3,Question,uses_entry_point,perianal dermatitis,EntryPoint,3,,43638.3
+perianal dermatitis,EntryPoint,activates_differential_for,perianal dermatitis,Disease,3,,43638.3
+streptococcus pyogenes,Disease,can_cause,perianal dermatitis,Disease,3,,43638.3
+erythema,Finding,suggests,perianal dermatitis,Disease,3,,43638.3
+dyschezia,Finding,suggests,perianal dermatitis,Disease,3,,43638.3
+perianal dermatitis,Disease,requires_first,bacterial culture (procedure),Test,2,,43638.3
+perianal dermatitis,Disease,next_step_is,antibiotic therapy,AlgorithmStep,3,,43638.3
+perianal dermatitis,Disease,treated_with,amoxicillin,Treatment,3,,43638.3
+43638.3,Question,anchored_too_early,psoriasis,Disease,2,,43638.3
+43638.3,Question,missed_key_clue,dyschezia,Finding,3,,43638.3
+43770.2,Question,tests,idiopathic membranous glomerulonephritis,Disease,3,,43770.2
+43770.2,Question,uses_entry_point,edema of lower extremity,,3,,43770.2
+edema of lower extremity,EntryPoint,activates_differential_for,idiopathic membranous glomerulonephritis,Disease,3,,43770.2
+proteinuria,Finding,suggests,nephrotic syndrome,Disease,3,,43770.2
+normal serum complement level,Finding,suggests,idiopathic membranous glomerulonephritis,Disease,3,,43770.2
+edema of lower extremity,Finding,may_indicate,nephrotic syndrome,Disease,3,,43770.2
+idiopathic membranous glomerulonephritis,Disease,requires_first,anti phospholipase A2 receptor antibody testing,Test,3,,43770.2
+idiopathic membranous glomerulonephritis,Disease,next_step_is,anti phospholipase A2 receptor antibody testing,Test,3,,43770.2
+idiopathic membranous glomerulonephritis,Disease,treated_with,Angiotensin-Converting Enzyme Inhibitors,Treatment,2,,43770.2
+idiopathic membranous glomerulonephritis,Disease,treated_with,therapeutic immunosuppression,Treatment,2,,43770.2
+normal serum complement levels,Finding,discriminates_from,Acute post-streptococcal glomerulonephritis,Disease,3,,43770.2
+normal serum complement levels,Finding,discriminates_from,lupus nephritis,Disease,2,,43770.2
+43770.2,Question,did_not_know_next_best_step,anti phospholipase A2 receptor antibody testing,Test,2,,43770.2
+21329.9,Question,tests,anterior cruciate ligament tear,Disease,3,,21329.9
+injury while engaged in sports activity,Finding,can_cause,anterior cruciate ligament tear,Disease,3,,21329.9
+hemarthrosis of knee,Finding,suggests,anterior cruciate ligament tear,Disease,3,,21329.9
+unable to weight-bear,Finding,suggests,anterior cruciate ligament tear,Disease,2,,21329.9
+knee joint effusion,Finding,suggests,anterior cruciate ligament tear,Disease,3,,21329.9
+anterior cruciate ligament tear,Disease,requires_first,lachman test (procedure),Test,3,,21329.9
+anterior cruciate ligament tear,Disease,next_step_is,lachman test (procedure),Test,3,,21329.9
+anterior cruciate ligament tear,Disease,treated_with,"Rest, ice, compression and elevation treatment program",Treatment,2,,21329.9
+anterior cruciate ligament tear,Disease,treated_with,Reconstruction of anterior cruciate ligament of knee joint,Treatment,2,,21329.9
+anterior cruciate ligament tear,Disease,discriminates_from,rupture of posterior cruciate ligament,Disease,3,,21329.9
+lachman test (procedure),Test,discriminates_from,Posterior drawer test (procedure),Test,3,,21329.9
+21329.9,Question,diagnostic_confusion,rupture of posterior cruciate ligament,Disease,3,,21329.9
+21329.9,Question,did_not_recognize_pattern,injury while engaged in sports activity,Finding,2,,21329.9
+21329.9,Question,missed_key_clue,hemarthrosis of knee,Finding,3,,21329.9
+43162.2,Question,tests,Pneumocystis jiroveci pneumonia,Disease,3,,43162.2
+43162.2,Question,uses_entry_point,dry cough,EntryPoint,3,,43162.2
+dry cough,EntryPoint,activates_differential_for,Pneumocystis jiroveci pneumonia,Disease,3,,43162.2
+HIV infections,RiskFactor,risk_factor_for,Pneumocystis jiroveci pneumonia,Disease,3,,43162.2
+Methenamine silver nitrate stain method,Test,suggests,Pneumocystis jiroveci pneumonia,Disease,3,,43162.2
+Low CD4+ count,Finding,suggests,Pneumocystis jiroveci pneumonia,Disease,3,,43162.2
+dry cough,Finding,may_indicate,Pneumocystis jiroveci pneumonia,Disease,2,,43162.2
+Pneumocystis jiroveci pneumonia,Disease,requires_first,bronchoalveolar lavage,Test,2,,43162.2
+Pneumocystis jiroveci pneumonia,Disease,next_step_is,atovaquone,AlgorithmStep,3,,43162.2
+Pneumocystis jiroveci pneumonia,Disease,treated_with,atovaquone,Treatment,3,,43162.2
+Trimethoprim-Sulfamethoxazole Combination,Treatment,contraindicated_if,allergy to sulfonamide,Finding,3,,43162.2
+dapsone,Treatment,contraindicated_if,Deficiency of glucose-6-phosphate dehydrogenase,Finding,3,,43162.2
+Pneumocystis jiroveci pneumonia,Disease,discriminates_from,"pneumonia, bacterial",Disease,2,,43162.2
+Pneumocystis jiroveci pneumonia,Disease,discriminates_from,tuberculosis,Disease,2,,43162.2
+43162.2,Question,diagnostic_confusion,Trimethoprim-Sulfamethoxazole Combination,Treatment,3,,43162.2
+43162.2,Question,missed_key_clue,Deficiency of glucose-6-phosphate dehydrogenase,Finding,3,,43162.2
+43162.2,Question,missed_key_clue,allergy to sulfonamide,Finding,3,,43162.2
+44091.1,Question,tests,heart failure with reduced ejection fraction,Disease,3,,44091.1
+44091.1,Question,uses_entry_point,dyspnea,EntryPoint,3,,44091.1
+dyspnea,EntryPoint,activates_differential_for,heart failure with reduced ejection fraction,Disease,3,,44091.1
+hypertensive disease,Disease,risk_factor_for,heart failure with reduced ejection fraction,Disease,2,,44091.1
+Elevated brain natriuretic peptide (BNP),Finding,suggests,heart failure with reduced ejection fraction,Disease,3,,44091.1
+jugular venous engorgement,Finding,suggests,heart failure with reduced ejection fraction,Disease,2,,44091.1
+edema of lower extremity,Finding,suggests,heart failure with reduced ejection fraction,Disease,2,,44091.1
+rales,Finding,suggests,heart failure with reduced ejection fraction,Disease,2,,44091.1
+heart failure with reduced ejection fraction,Disease,confirmed_by,echocardiography,Test,3,,44091.1
+heart failure with reduced ejection fraction,Disease,requires_first,loop diuretics,Treatment,3,,44091.1
+heart failure with reduced ejection fraction,Disease,next_step_is,cardiac rehabilitation,AlgorithmStep,3,,44091.1
+heart failure with reduced ejection fraction,Disease,treated_with,guideline directed medical therapy,Treatment,3,,44091.1
+heart failure with reduced ejection fraction,Disease,discriminates_from,pneumonia,Disease,2,,44091.1
+heart failure with reduced ejection fraction,Disease,discriminates_from,chronic obstructive airway disease,Disease,2,,44091.1
+high sensitivity troponin elevation,Finding,mimics,myocardial infarction,Disease,3,,44091.1
+44091.1,Question,did_not_know_next_best_step,cardiac rehabilitation,Treatment,3,,44091.1
+44091.1,Question,diagnostic_confusion,aspirin,Treatment,2,,44091.1
+44091.1,Question,diagnostic_confusion,myocardial infarction,Disease,2,,44091.1
+44091.1,Question,diagnostic_confusion,high sensitivity troponin elevation,Finding,2,,44091.1
+21850.6,Question,tests,hypomagnesemia,Disease,3,,21850.6
+21850.6,Question,uses_entry_point,has tingling sensation,EntryPoint,3,,21850.6
+has tingling sensation,EntryPoint,activates_differential_for,hypomagnesemia,Disease,3,,21850.6
+alcohol consumption,Finding,risk_factor_for,hypomagnesemia,Disease,3,,21850.6
+diarrhea,Finding,risk_factor_for,hypomagnesemia,Disease,3,,21850.6
+chvostek sign positive,Finding,suggests,hypocalcemia,Disease,3,,21850.6
+trousseau sign positive,Finding,suggests,hypocalcemia,Disease,3,,21850.6
+hypokalemia persistent,Finding,suggests,hypomagnesemia,Disease,3,,21850.6
+hypomagnesemia,Disease,confirmed_by,serum magnesium measurement,Test,3,,21850.6
+hypomagnesemia,Disease,requires_first,magnesium supplement therapy,Treatment,3,,21850.6
+hypomagnesemia,Disease,treated_with,magnesium supplement therapy,Treatment,3,,21850.6
+hypomagnesemia,Disease,discriminates_from,hypocalcemia,Disease,2,,21850.6
+hypomagnesemia,Disease,discriminates_from,hypokalemia,Disease,2,,21850.6
+21850.6,Question,did_not_recognize_pattern,hypomagnesemia,Disease,3,,21850.6
+21850.6,Question,diagnostic_confusion,sodium bicarbonate,Treatment,2,,21850.6
+21850.6,Question,missed_key_clue,alcohol consumption,Finding,2,,21850.6
+21850.6,Question,missed_key_clue,diarrhea,Finding,2,,21850.6
+22451.6,Question,tests,invasive aspergillosis,Disease,3,,22451.6
+fever,EntryPoint,uses_entry_point,invasive aspergillosis,Disease,3,,22451.6
+invasive aspergillosis,Disease,treated_with,amphotericin B injection,Treatment,3,,22451.6
+invasive aspergillosis,Disease,treated_with,surgical debridement of wound,Treatment,3,,22451.6
+septated branching hyphae,Finding,suggests,invasive aspergillosis,Disease,3,,22451.6
+nasal mucosa necrotic,Finding,suggests,invasive aspergillosis,Disease,3,,22451.6
+immunocompromised host,RiskFactor,risk_factor_for,invasive aspergillosis,Disease,3,,22451.6
+invasive aspergillosis,Disease,requires_first,amphotericin B injection,Treatment,3,,22451.6
+invasive aspergillosis,Disease,next_step_is,amphotericin B injection,Treatment,3,,22451.6
+biopsy of nose,Test,confirmed_by,invasive aspergillosis,Disease,3,,22451.6
+septated branching hyphae,Finding,discriminates_from,mucormycosis,Disease,3,,22451.6
+invasive aspergillosis,Disease,mimics,bacterial sinusitis,Disease,2,,22451.6
+22451.6,Question,low_confidence_correct,invasive aspergillosis,Disease,3,,22451.6
+43693.1,Question,tests,guttate psoriasis,Disease,3,,43693.1
+rash,EntryPoint,uses_entry_point,guttate psoriasis,Disease,3,,43693.1
+rash,EntryPoint,activates_differential_for,guttate psoriasis,Disease,3,,43693.1
+guttate psoriasis,Disease,treated_with,topical corticosteroid therapy,Treatment,3,,43693.1
+guttate psoriasis,Disease,treated_with,phototherapy,Treatment,3,,43693.1
+recent streptococcal infection,RiskFactor,risk_factor_for,guttate psoriasis,Disease,3,,43693.1
+rash scaly,Finding,suggests,guttate psoriasis,Disease,3,,43693.1
+guttate psoriasis,Disease,requires_first,topical corticosteroid therapy,Treatment,3,,43693.1
+guttate psoriasis,Disease,next_step_is,topical corticosteroid therapy,Treatment,3,,43693.1
+clinical diagnosis,Test,confirmed_by,guttate psoriasis,Disease,3,,43693.1
+guttate psoriasis,Disease,discriminates_from,pityriasis rosea,Disease,3,,43693.1
+guttate psoriasis,Disease,discriminates_from,nummular eczema,Disease,3,,43693.1
+43693.1,Question,low_confidence_correct,guttate psoriasis,Disease,3,,43693.1
+43938.1,Question,tests,open depressed fracture of skull,Disease,3,,43938.1
+craniocerebral trauma,EntryPoint,uses_entry_point,open depressed fracture of skull,Disease,3,,43938.1
+open depressed fracture of skull,Disease,treated_with,intravenous antibiotic therapy,Treatment,3,,43938.1
+open depressed fracture of skull,Disease,treated_with,neurosurgical procedures,Treatment,3,,43938.1
+step-off displacement deformity of skull,Finding,suggests,open depressed fracture of skull,Disease,3,,43938.1
+scalp laceration,Finding,suggests,open depressed fracture of skull,Disease,3,,43938.1
+low glasgow coma scale,Finding,suggests,traumatic brain injury,Disease,3,,43938.1
+open depressed fracture of skull,Disease,requires_first,intravenous antibiotic therapy,AlgorithmStep,3,,43938.1
+open depressed fracture of skull,Disease,next_step_is,intravenous antibiotic therapy,Treatment,3,,43938.1
+CAT scan of head,Test,tests,open depressed fracture of skull,Disease,3,,43938.1
+open depressed fracture of skull,Disease,discriminates_from,closed fracture of skull,Disease,3,,43938.1
+open depressed fracture of skull,Disease,discriminates_from,"Hematoma, Epidural, Cranial",Disease,3,,43938.1
+43938.1,Question,did_not_know_next_best_step,intravenous antibiotic therapy,AlgorithmStep,3,,43938.1
+46964.1,Question,uses_entry_point,migraine disorders,EntryPoint,3,,46964.1
+refractory migraine,Disease,treated_with,erenumab,Treatment,3,,46964.1
+topiramate,Treatment,contraindicated_if,nephrolithiasis,Finding,3,,46964.1
+46964.1,Question,missed_key_clue,nephrolithiasis,Finding,3,,46964.1
+24629.3,Question,uses_entry_point,fever,EntryPoint,3,,24629.3
+,Question,tests,infective endocarditis,Disease,3,,24629.3
+fever,EntryPoint,uses_entry_point,infective endocarditis,Disease,3,,24629.3
+infective endocarditis,Disease,treated_with,intravenous antibiotic therapy,Treatment,3,,24629.3
+splinter hemorrhage,Finding,suggests,infective endocarditis,Disease,3,,24629.3
+mitral valve stenosis,Finding,suggests,infective endocarditis,Disease,3,,24629.3
+infective endocarditis,Disease,requires_first,blood culture,Test,3,,24629.3
+infective endocarditis,Disease,next_step_is,echocardiography,Test,3,,24629.3
+echocardiography,Test,confirmed_by,infective endocarditis,Disease,3,,24629.3
+infective endocarditis,Disease,discriminates_from,tuberculosis,Disease,2,,24629.3
+24629.3,Question,low_confidence_correct,infective endocarditis,Disease,3,,24629.3
+21455.14,Question,tests,reactive arthritis,Disease,3,,21455.14
+21455.14,Question,uses_entry_point,reactive arthritis,Disease,3,,21455.14
+blurred vision,EntryPoint,activates_differential_for,reactive arthritis,Disease,3,,21455.14
+chlamydia infections,RiskFactor,risk_factor_for,reactive arthritis,Disease,3,,21455.14
+HLA-B*27 positive,RiskFactor,risk_factor_for,reactive arthritis,Disease,3,,21455.14
+conjunctivitis,Finding,suggests,reactive arthritis,Disease,3,,21455.14
+oligoarticular arthritis,Finding,suggests,reactive arthritis,Disease,3,,21455.14
+Circinate balanitis co-occurrent with reactive arthritis triad,Finding,suggests,chlamydia infections,Disease,3,,21455.14
+chlamydia infections,Disease,confirmed_by,chlamydia trachomatis nucleic acid amplification test,Test,3,,21455.14
+chlamydia infections,Disease,next_step_is,chlamydia trachomatis nucleic acid amplification test,Test,3,,21455.14
+reactive arthritis,Disease,requires_first,"Anti-Inflammatory Agents, Non-Steroidal",Treatment,3,,21455.14
+chlamydia infections,Disease,treated_with,doxycycline,Treatment,3,,21455.14
+21455.14,Question,changed_right_to_wrong,VDRL test,Test,3,,21455.14
+21455.14,Question,diagnostic_confusion,syphilis,Disease,3,,21455.14
+21455.14,Question,missed_key_clue,conjunctivitis,Finding,3,,21455.14
+21455.14,Question,missed_key_clue,oligoarticular arthritis,Finding,3,,21455.14
+43695.1,Question,tests,focal glomerulosclerosis,Disease,3,,43695.1
+,Question,uses_entry_point,edema of lower extremity,EntryPoint,3,,43695.1
+HIV infections,RiskFactor,risk_factor_for,focal glomerulosclerosis,Disease,3,,43695.1
+nephrotic syndrome,Disease,can_cause,hydrothorax,Finding,2,,43695.1
+nephrotic syndrome,Disease,can_cause,edema of lower extremity,Finding,3,,43695.1
+edema of lower extremity,Finding,suggests,focal glomerulosclerosis,Disease,2,,43695.1
+hydrothorax,Finding,suggests,focal glomerulosclerosis,Disease,2,,43695.1
+focal glomerulosclerosis,Disease,confirmed_by,kidney biopsy,Test,3,,43695.1
+focal glomerulosclerosis,Disease,next_step_is,kidney biopsy,Test,3,,43695.1
+focal glomerulosclerosis,Disease,requires_first,Angiotensin-Converting Enzyme Inhibitors,Treatment,2,,43695.1
+HIV infections,Disease,treated_with,"Antiretroviral Therapy, Highly Active",Treatment,2,,43695.1
+HIV infections,Disease,can_cause,AIDS-Associated Nephropathy,Disease,3,,43695.1
+AIDS-Associated Nephropathy,Disease,can_cause,focal glomerulosclerosis,Disease,3,,43695.1
+AIDS-Associated Nephropathy,Disease,suggests,focal glomerulosclerosis,Disease,3,,43695.1
+focal glomerulosclerosis,Disease,discriminates_from,decompensated cardiac failure,Disease,3,,43695.1
+AIDS-Associated Nephropathy,Disease,discriminates_from,decompensated cardiac failure,Disease,3,,43695.1
+43695.1,Question,diagnostic_confusion,decompensated cardiac failure,Disease,3,,43695.1
+43695.1,Question,missed_key_clue,AIDS-Associated Nephropathy,Disease,3,,43695.1
+43695.1,Question,anchored_too_early,decompensated cardiac failure,Disease,3,,43695.1
+21459.9,Question,tests,NSAID-Induced Nephropathy,Disease,3,,21459.9
+rheumatoid arthritis,Disease,treated_with,"Anti-Inflammatory Agents, Non-Steroidal",Treatment,3,,21459.9
+"Anti-Inflammatory Agents, Non-Steroidal",RiskFactor,risk_factor_for,NSAID-Induced Nephropathy,Disease,3,,21459.9
+periorbital edema,Finding,suggests,NSAID-Induced Nephropathy,Disease,3,,21459.9
+edema of lower extremity,Finding,suggests,NSAID-Induced Nephropathy,Disease,3,,21459.9
+nephrotic range proteinuria,Finding,suggests,NSAID-Induced Nephropathy,Disease,3,,21459.9
+NSAID-Induced Nephropathy,Disease,requires_first,discontinue NSAID,Treatment,3,,21459.9
+NSAID-Induced Nephropathy,Disease,next_step_is,discontinue NSAID,Treatment,3,,21459.9
+NSAID-Induced Nephropathy,Disease,confirmed_by,kidney biopsy,Test,2,,21459.9
+NSAID-Induced Nephropathy,Disease,treated_with,steroid use,Treatment,2,,21459.9
+NSAID-Induced Nephropathy,Disease,discriminates_from,methotrexate poisoning,Disease,3,,21459.9
+NSAID-Induced Nephropathy,Disease,discriminates_from,amyloidosis,Disease,2,,21459.9
+21459.9,Question,diagnostic_confusion,methotrexate poisoning,Disease,3,,21459.9
+21459.9,Question,missed_key_clue,nephrotic range proteinuria,Finding,3,,21459.9
+43807.2,Question,tests,"shock, cardiogenic",Disease,3,,43807.2
+43807.2,Question,uses_entry_point,dizziness,EntryPoint,3,,43807.2
+heart failure with reduced ejection fraction,Disease,risk_factor_for,"shock, cardiogenic",Disease,3,,43807.2
+hypotension,Finding,suggests,"shock, cardiogenic",Disease,3,,43807.2
+oliguria,Finding,suggests,"shock, cardiogenic",Disease,3,,43807.2
+cold extremity,Finding,suggests,"shock, cardiogenic",Disease,3,,43807.2
+livedo reticularis,Finding,suggests,"shock, cardiogenic",Disease,3,,43807.2
+serum creatinine raised,Finding,suggests,"shock, cardiogenic",Disease,2,,43807.2
+"shock, cardiogenic",Disease,requires_first,Inotropic support (drug),Treatment,3,,43807.2
+"shock, cardiogenic",Disease,next_step_is,inotropic support (drug),Treatment,3,,43807.2
+"shock, cardiogenic",Disease,confirmed_by,echocardiography,Test,2,,43807.2
+"shock, cardiogenic",Disease,discriminates_from,hypovolemic shock,Disease,3,,43807.2
+Administration of intravenous fluids,Treatment,contraindicated_if,"shock, cardiogenic",Disease,3,,43807.2
+43807.2,Question,low_confidence_correct,"shock, cardiogenic",Disease,3,,43807.2
+43238.1,Question,tests,Alzheimer's disease,Disease,3,,43238.1
+43238.1,Question,uses_entry_point,memory impairment,EntryPoint,3,,43238.1
+Alzheimer's disease,Disease,treated_with,Acetylcholinesterase Inhibitors,Treatment,3,,43238.1
+memory impairment,Finding,suggests,Alzheimer's disease,Disease,3,,43238.1
+Atrophy of cortex of temporal lobe,Finding,suggests,Alzheimer's disease,Disease,3,,43238.1
+difficulty remembering names,Finding,suggests,Alzheimer's disease,Disease,2,,43238.1
+Acetylcholinesterase Inhibitors,Treatment,can_cause,diarrhea,Complication,3,,43238.1
+Acetylcholinesterase Inhibitors,Treatment,discriminates_from,tachycardia,Complication,2,,43238.1
+43238.1,Question,did_not_know_next_best_step,Acetylcholinesterase Inhibitors,Treatment,3,,43238.1
+24408.6,Question,tests,paroxysmal hemicrania,Disease,3,,24408.6
+24408.6,Question,uses_entry_point,retro-orbital pain,EntryPoint,3,,24408.6
+paroxysmal hemicrania,Disease,treated_with,indomethacin,Treatment,3,,24408.6
+retro-orbital pain,Finding,suggests,paroxysmal hemicrania,Disease,3,,24408.6
+lacrimation,Finding,suggests,paroxysmal hemicrania,Disease,3,,24408.6
+ptosis,Finding,suggests,paroxysmal hemicrania,Disease,3,,24408.6
+rhinorrhea,Finding,suggests,paroxysmal hemicrania,Disease,3,,24408.6
+high frequency,Finding,suggests,paroxysmal hemicrania,Disease,3,,24408.6
+short duration,Finding,suggests,paroxysmal hemicrania,Disease,3,,24408.6
+paroxysmal hemicrania,Disease,requires_first,indomethacin,Treatment,3,,24408.6
+paroxysmal hemicrania,Disease,next_step_is,indomethacin,Treatment,3,,24408.6
+paroxysmal hemicrania,Disease,confirmed_by,indomethacin,Treatment,3,,24408.6
+paroxysmal hemicrania,Disease,discriminates_from,cluster headache,Disease,3,,24408.6
+cluster headache,Disease,treated_with,High-flow nasal cannula oxygen therapy,Treatment,2,,24408.6
+cluster headache,Disease,treated_with,verapamil,Treatment,2,,24408.6
+24408.6,Question,did_not_recognize_pattern,paroxysmal hemicrania,Disease,3,,24408.6
+43374.2,Question,tests,alcohol withdrawal syndrome,Disease,3,,43374.2
+43374.2,Question,uses_entry_point,alcohol detoxification,EntryPoint,3,,43374.2
+alcohol use disorder,RiskFactor,risk_factor_for,alcohol withdrawal syndrome,Disease,3,,43374.2
+alcohol use disorder,RiskFactor,risk_factor_for,liver cirrhosis,Finding,3,,43374.2
+tremor,Finding,suggests,alcohol withdrawal syndrome,Disease,3,,43374.2
+tachycardia,Finding,suggests,alcohol withdrawal syndrome,Disease,3,,43374.2
+increased sweating,Finding,suggests,alcohol withdrawal syndrome,Disease,3,,43374.2
+ascites,Finding,suggests,liver cirrhosis,Disease,3,,43374.2
+pruritis,Finding,suggests,liver cirrhosis,Disease,3,,43374.2
+alcohol withdrawal syndrome,Disease,requires_first,lorazepam,Treatment,3,,43374.2
+alcohol withdrawal syndrome,Disease,next_step_is,lorazepam,Treatment,3,,43374.2
+alcohol withdrawal syndrome,Disease,treated_with,phase II metabolism,Treatment,3,,43374.2
+chlordiazepoxide,Treatment,contraindicated_if,liver cirrhosis,Disease,3,,43374.2
+lorazepam,Treatment,discriminates_from,chlordiazepoxide,Treatment,3,,43374.2
+alcohol withdrawal syndrome,Disease,discriminates_from,serotonin syndrome,Disease,2,,43374.2
+43374.2,Question,missed_key_clue,liver cirrhosis,Disease,3,,43374.2
+43374.2,Question,changed_right_to_wrong,lorazepam,Treatment,3,,43374.2
+24572.5,Question,tests,"Glomerulonephritis, Membranoproliferative",Disease,3,,24572.5
+24572.5,Question,uses_entry_point,check up,EntryPoint,3,,24572.5
+Hepatitis C,Disease,risk_factor_for,"Glomerulonephritis, Membranoproliferative",Disease,3,,24572.5
+proteinuria,Finding,risk_factor_for,"Glomerulonephritis, Membranoproliferative",Disease,3,,24572.5
+hematuria,Finding,risk_factor_for,"Glomerulonephritis, Membranoproliferative",Disease,3,,24572.5
+edema,Finding,risk_factor_for,"Glomerulonephritis, Membranoproliferative",Disease,2,,24572.5
+increased blood pressure,Finding,risk_factor_for,"Glomerulonephritis, Membranoproliferative",Disease,2,,24572.5
+"Glomerulonephritis, Membranoproliferative",Disease,next_step_is,complement assay,AlgorithmStep,3,,24572.5
+"Glomerulonephritis, Membranoproliferative",Disease,confirmed_by,kidney biopsy,Test,3,,24572.5
+Hepatitis C,Disease,treated_with,antiviral therapy,Treatment,2,,24572.5
+"Glomerulonephritis, Membranoproliferative",Disease,discriminates_from,idiopathic membranous glomerulonephritis,Disease,3,,24572.5
+24572.5,Question,diagnostic_confusion,"glomerulonephritis, Membranoproliferative",Disease,3,,24572.5
+24572.5,Question,did_not_know_next_best_step,complement assay,Test,3,,24572.5
+24134.11,Question,tests,"Polycystic Kidney, Autosomal Dominant",Disease,3,,24134.11
+24134.11,Question,uses_entry_point,hematuria,EntryPoint,3,,24134.11
+hematuria,EntryPoint,activates_differential_for,kidney diseases,Disease,3,,24134.11
+"Polycystic Kidney, Autosomal Dominant",Disease,can_cause,increased blood pressure,Finding,3,,24134.11
+ultrasound of kidney: multiple cysts of both kidneys,Finding,suggests,"Polycystic Kidney, Autosomal Dominant",Disease,3,,24134.11
+flank pain,Finding,suggests,"Polycystic Kidney, Autosomal Dominant",Disease,3,,24134.11
+hematuria,Finding,suggests,"Polycystic Kidney, Autosomal Dominant",Disease,3,,24134.11
+"Polycystic Kidney, Autosomal Dominant",Disease,treated_with,Angiotensin-Converting Enzyme Inhibitors,Treatment,3,,24134.11
+"Polycystic Kidney, Autosomal Dominant",Disease,requires_first,Angiotensin-Converting Enzyme Inhibitors,Treatment,3,,24134.11
+"Polycystic Kidney, Autosomal Dominant",Disease,next_step_is,Angiotensin-Converting Enzyme Inhibitors,Treatment,3,,24134.11
+"Polycystic Kidney, Autosomal Dominant",Disease,did_not_know_next_best_step,Angiotensin-Converting Enzyme Inhibitors,Treatment,3,,24134.11
+40200.2,Question,tests,Poisoning caused by acetaminophen,Disease,3,,40200.2
+40200.2,Question,uses_entry_point,liver failure,EntryPoint,3,,40200.2
+Poisoning caused by acetaminophen,Disease,can_cause,liver failure,Finding,3,,40200.2
+transaminases increased,Finding,suggests,poisoning caused by acetaminophen,,3,,40200.2
+INR increased,Finding,suggests,liver failure,Finding,3,,40200.2
+hypoglycemia,Finding,suggests,liver failure,Finding,2,,40200.2
+hepatomegaly,Finding,presents_with,poisoning caused by acetaminophen,Disease,2,,40200.2
+poisoning caused by acetaminophen,Disease,treated_with,acetylcysteine,Treatment,3,,40200.2
+poisoning caused by acetaminophen,Disease,requires_first,acetylcysteine,Treatment,3,,40200.2
+poisoning caused by acetaminophen,Disease,next_step_is,acetylcysteine,Treatment,3,,40200.2
