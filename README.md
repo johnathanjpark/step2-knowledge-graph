@@ -20,3 +20,11 @@ Spreadsheet intake -> PostgreSQL storage -> Pandas analysis -> Neo4j relationshi
 
 ## Status
 Phase 1: logging and basic analytics
+Phase 2: Initialize v2
+
+Version 2 shifts intake from manual spreadsheet entry to Google Forms-based structure.
+Primary goals:
+-reduce logging friction
+-improve consistency
+-preserve high-yield reasoning fields
+-support downstream CSV, SQL, pandas, and graph workflows
