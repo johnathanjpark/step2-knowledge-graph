@@ -21,6 +21,7 @@ Spreadsheet intake -> PostgreSQL storage -> Pandas analysis -> Neo4j relationshi
 ## Status
 Phase 1: logging and basic analytics
 Phase 2: Initialize v2
+Phase 2b: Initialize v3
 
 Version 2 shifts intake from manual spreadsheet entry to Google Forms-based structure.
 Primary goals:
@@ -28,3 +29,5 @@ Primary goals:
 -improve consistency
 -preserve high-yield reasoning fields
 -support downstream CSV, SQL, pandas, and graph workflows
+
+Version 3 introduces further refinement of question intake and prioritizes ChatGPT based csv analysis over Postgres and Python implementation.  The spaced repetition software Anki will be used for now to consolidate nodes and edges into long term memory.
